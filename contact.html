@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <!-- BootstrapのCSS読み込み -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- JQuery読み込み -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <title>お問合せフォーム</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-header">お問合せ</h1>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="name1" class="col-sm-3 control-label">お名前</label>
+                <div class="col-md-9">
+                <input type="text" class="form-control" id="name1" placeholder="例）石田　大輔">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mail1" class="col-sm-3 control-label">メールアドレス</label>
+                <div class="col-md-9">
+                <input type="email" class="form-control" id="mail1" placeholder="例）berg7295karajan@gmail.com">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ask1" class="col-sm-3 control-label">お問合せ内容</label>
+                <div class="col-md-9">
+                <textarea class="form-control" id="ask1" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9 text-right">
+                    <button type="button" class="btn btn-dagault">クリア</button>
+                    <button type="button" class-"btn btn-primary">送信</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
