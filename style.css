@@ -5,15 +5,16 @@ body {
 header.jumbotron {
     background: url(yjimage6.jpg);
     background-size: cover;
-}
-
-header.jumbotron h1
-hedear.jumbotron p {
     color: blue;
 }
 
-header.jumbotron p {
+header.jumbotron h1 {
+    text-align: center;
+}
+
+hedear.jumbotron p {
     font-size: 30px;
+    text-align: left;
 }
 
 #introduction {
@@ -24,15 +25,11 @@ header.jumbotron p {
     text-shadow: 2px 2px 0px lightblue;
 }
 
-#introduction > div {
+#introduction p {
     font-size: 24px;
 }
 
-#introduction image {
-    height: 300px;
-}
-
-footer image > div {
+#footer-images {
     max-height: 100px;
     padding: 0;
 }
