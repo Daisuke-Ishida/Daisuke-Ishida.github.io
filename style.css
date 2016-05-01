@@ -1,0 +1,38 @@
+body {
+    background: url(e48m_5511.jpg);
+}
+
+header.jumbotron {
+    background: url(yjimage6.jpg);
+    background-size: cover;
+}
+
+header.jumbotron h1
+hedear.jumbotron p {
+    color: blue;
+}
+
+header.jumbotron p {
+    font-size: 30px;
+}
+
+#introduction {
+    margin-bottom: 40px;
+}
+
+#introduction h1 {
+    text-shadow: 2px 2px 0px lightblue;
+}
+
+#introduction > div {
+    font-size: 24px;
+}
+
+#introduction image {
+    height: 300px;
+}
+
+footer image > div {
+    max-height: 100px;
+    padding: 0;
+}
